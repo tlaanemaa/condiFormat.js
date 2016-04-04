@@ -1,6 +1,6 @@
 <h3>condiFormat</h3>
 
-This is a simple plugin for jQuery to allow conditinal formatting. 
+This is a simple plugin for jQuery to allow conditional formatting. 
 It separates the workload into smaller chunks and runs async to avoid keeping the browser busy for too long. 
 The async properties can be changed via the options parameter
 

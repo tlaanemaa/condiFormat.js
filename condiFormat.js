@@ -19,7 +19,7 @@
     if(options.invertColorAt === undefined) options.invertColorAt = 400;  // Color code sums (red + green + blue) under this value will have their text color convered to white
     if(options.readBatchSize === undefined) options.readBatchSize = 2000; // Items to read in one batch before allowing browser to take control for a bit
     if(options.colorBatchSize === undefined) options.colorBatchSize = 200; // Items colored in one batch before allowing browser to take control for a bit
-    if(options.transition === undefined) options.transitionSpeed = 0;  // Conditional formatting color transition speed (0 = disabled)
+    if(options.transitionSpeed === undefined) options.transitionSpeed = 0;  // Conditional formatting color transition speed (0 = disabled)
     // options.callback allows passing a function that will be called once the coloring is finished. It has no default value
 
     // Get the elements from 'this'

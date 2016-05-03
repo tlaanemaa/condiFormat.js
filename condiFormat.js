@@ -54,7 +54,10 @@
       if(i < elemLen) {
         setTimeout(findBounds, 1);
       } else {
-        if(maxVal === undefined || minVal === undefined) return;
+        if(maxVal === undefined || minVal === undefined) {
+          if(options.callback !== undefined) setTimeout(options.callback.bind(elems), 1);
+          return;
+        }
         i = 0;
         setTimeout(setColor, 1);
       }
@@ -97,7 +100,7 @@
       }
       if(i < elemLen) {
         setTimeout(setColor, 1);
-      } else if(options.callback){
+      } else if(options.callback !== undefined){
         setTimeout(options.callback.bind(elems), 1);
       }
     };

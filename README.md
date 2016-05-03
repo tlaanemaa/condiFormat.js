@@ -17,5 +17,5 @@ The async properties along with other properties can be changed via the options 
 <li><b>invertColorAt</b><br>Color code sums (red + green + blue) under this value will have their text color convered to white. <i>Default: 400</i></li>
 <li><b>readBatchSize</b><br>Items to read in one batch before allowing browser to take control for a bit. <i>Default: 2000</i></li>
 <li><b>colorBatchSize</b><br>Items colored in one batch before allowing browser to take control for a bit. <i>Default: 200</i></li>
-<li><b>transition</b><br>Conditional formatting color transition speed in ms (0 = disabled). <i>Default: 0</i></li>
+<li><b>transitionSpeed</b><br>Conditional formatting color transition speed in ms (0 = disabled). <i>Default: 0</i></li>
 <li><b>callback</b><br>Allows passing a function that will be called once the coloring is finished. <i>No default value</i></li>
